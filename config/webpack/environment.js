@@ -8,8 +8,6 @@ environment.plugins.append(
     new webpack.ProvidePlugin({
         $: "jquery",
         jQuery: "jquery",
-        $: "jquery-hoverIntent",
-        $: "jquery-waypoints",
         Popper: ["popper.js", "default"]
     })
 );

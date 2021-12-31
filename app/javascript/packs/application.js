@@ -3,23 +3,26 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 // fuck this shit
+require("../channels");
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
-require("channels")
-require("bootstrap.bundle.min")
-require("bootstrap-input-spinner")
-require("jquery-countdown")
-require("jquery-hoverIntent")
-require("jquery-magnific-popup.min")
-require("jquery.min")
-require("jquery-plugin.min")
-require("jquery.waypoints.min")
-require("main")
-require("owl.carousel")
-require("owl.carousel/dist/assets/owl.carousel.css")
-require("superfish")
-require("superfish/dist/css/superfish.css")
+require("../channels");
+require("../vendor/bootstrap.bundle.min");
+require("jquery-countdown/dist/jquery.countdown");
+require("jquery-hoverintent/jquery.hoverIntent.min");
+require("jquery.magnify/dist/jquery.magnify.min");
+require("jquery.magnify/dist/jquery.magnify.min.css");
+require("jquery/dist/jquery.min");
+require("./jquery-plugin.min");
+require("../vendor/main");
+require("owl.carousel/dist/owl.carousel");
+require("owl.carousel/dist/assets/owl.carousel.css");
+require("superfish/dist/js/superfish");
+require("superfish/dist/css/superfish.css");
+require("nouislider/dist/nouislider.css");
+require("nouislider/dist/nouislider");
+require("./jquery-magnific-popup.min");
 
 
 
